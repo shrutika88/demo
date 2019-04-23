@@ -3,4 +3,4 @@ Library           Selenium2Library
 
 *** Test Cases ***
 Sample
-    Open Browser    www.google.com    chrome
+    Open Browser    Google.com    chrome

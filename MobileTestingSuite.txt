@@ -10,11 +10,11 @@ Basic Program For Youtube Search
     AppiumLibrary.Input Text    id=search_edit_text    Robot framework
     Sleep    10
     AppiumLibrary.Click Element    xpath=//android.widget.TextView[@text='robot framework']
-    AppiumLibrary.Wait Until Element Is Visible    xpath=//android.widget.TextView[@text='Robot Framework Beginner Tutorial']    120
-    AppiumLibrary.Click Element    xpath=//android.widget.TextView[@text='Robot Framework Beginner Tutorial']
-    AppiumLibrary.Wait Until Element Is Visible    xpath=//android.widget.TextView[@text='Robot Framework Beginner Tutorial 1 - Getting started with Robot Framework Step by Step 💧💧']    30
-    AppiumLibrary.Click Element    xpath=//android.widget.TextView[@text='Robot Framework Beginner Tutorial 1 - Getting started with Robot Framework Step by Step 💧💧']
-    AppiumLibrary.Wait Until Element Is Visible    xpath=//android.widget.TextView[@text='Robot Framework Beginner Tutorial 1 - Getting started with Robot Framework Step by Step 💧💧']    120
+    Comment    AppiumLibrary.Wait Until Element Is Visible    xpath=//android.widget.TextView[@text='Robot Framework Beginner Tutorial']    120
+    Comment    AppiumLibrary.Click Element    xpath=//android.widget.TextView[@text='Robot Framework Beginner Tutorial']
+    AppiumLibrary.Wait Until Element Is Visible    xpath=//android.widget.TextView[@text='Robot Framework - Python']    30
+    AppiumLibrary.Click Element    xpath=//android.widget.TextView[@text='Robot Framework - Python']
+    AppiumLibrary.Wait Until Element Is Visible    xpath=//android.widget.TextView[@text='Robot Framework: Step by Step Installation [Call/WhatsApp: +91-8743-913121 to Buy Full Course]']    120
     Sleep    15
-    AppiumLibrary.Element Should Be Visible    xpath=//android.widget.TextView[@text='Robot Framework Beginner Tutorial 1 - Getting started with Robot Framework Step by Step \ 💧💧']
+    AppiumLibrary.Element Should Be Visible    xpath=//android.widget.TextView[@text='Robot Framework: Step by Step Installation [Call/WhatsApp: +91-8743-913121 to Buy Full Course]']
     Log    Video for robot framework is open.
